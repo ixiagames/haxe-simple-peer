@@ -1,0 +1,12 @@
+{
+	"name": "simple-peer",
+	"url" : "https://github.com/melonin/haxe-simple-peer",
+	"license": "MIT",
+	"tags": [ "js", "javascript", "webrtc", "net", "networking" ],
+	"description": "Haxe externs for simple-peer.",
+	"version": "0.0.1",
+	"classPath": "Source/",
+	"releasenote": "Initial release.",
+	"contributors": [ "melonin" ],
+	"dependencies": { }
+}
