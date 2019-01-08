@@ -3,7 +3,7 @@ package peer;
 typedef PeerOptions = {
 
 	var initiator:Bool;
-	@:optional var channelConfig:Dynamic;
+	@:optional var channelConfig:ChannelConfig;
 	@:optional var channelName:String;
 	@:optional var config:Dynamic;
 	@:optional var constraints:Dynamic;
