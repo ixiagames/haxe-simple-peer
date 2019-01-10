@@ -12,7 +12,7 @@ extern class Peer {
 	public function new(?opts:PeerOptions);
 	public function signal(data:Dynamic):Void;
 	public function send(data:Dynamic):Void;
-	public function on(event:String, callback:Dynamic->Void):Void;
+	public function on(event:String, callback:Dynamic):Void;
 	public function destroy(?err:Dynamic):Void;
 	
 }
