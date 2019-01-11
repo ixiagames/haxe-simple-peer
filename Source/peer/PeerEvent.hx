@@ -11,5 +11,9 @@ class PeerEvent {
 	public static inline var REMOVE_TRACK = 'removetrack';
 	public static inline var CLOSE = 'close';
 	public static inline var ERROR = 'error';
+	/**
+	   emitted: iceConnectionState, iceGatheringState
+	**/
+	public static inline var ICE_STATE_CHANGE = 'iceStateChange';
 	
 }
