@@ -1,9 +1,9 @@
 package peer;
 
-#if standalone 
-@:native('SimplePeer')
-#else
+#if (nodejs || hxnodejs) 
 @:native('simple-peer')
+#else
+@:native('SimplePeer')
 #end
 extern class Peer {
 	
