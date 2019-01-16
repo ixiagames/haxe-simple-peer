@@ -9,6 +9,8 @@ extern class Peer {
 	
 	public static var WEBRTC_SUPPORT(default, never):Bool;
 	
+	private var _pc:Dynamic;
+	
 	public function new(?opts:PeerOptions);
 	public function signal(data:Dynamic):Void;
 	public function send(data:Dynamic):Void;
